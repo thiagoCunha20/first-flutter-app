@@ -1,0 +1,43 @@
+# Miscellaneous
+nubank_app_clone/*.class
+nubank_app_clone/*.log
+nubank_app_clone/*.pyc
+nubank_app_clone/*.swp
+nubank_app_clone/.DS_Store
+nubank_app_clone/.atom/
+nubank_app_clone/.buildlog/
+nubank_app_clone/.history
+nubank_app_clone/.svn/
+nubank_app_clone/migrate_working_dir/
+
+# IntelliJ related
+nubank_app_clone/*.iml
+nubank_app_clone/*.ipr
+nubank_app_clone/*.iws
+nubank_app_clone/.idea/
+
+# The .vscode folder contains launch configuration and tasks you configure in
+# VS Code which you may wish to be included in version control, so this line
+# is commented out by default.
+#.vscode/
+
+# Flutter/Dart/Pub related
+nubank_app_clone/**/doc/api/
+nubank_app_clone/**/ios/Flutter/.last_build_id
+nubank_app_clone/.dart_tool/
+nubank_app_clone/.flutter-plugins
+nubank_app_clone/.flutter-plugins-dependencies
+nubank_app_clone/.pub-cache/
+nubank_app_clone/.pub/
+nubank_app_clone//build/
+
+# Symbolication related
+nubank_app_clone/app.*.symbols
+
+# Obfuscation related
+nubank_app_clone/app.*.map.json
+
+# Android Studio will place build artifacts here
+nubank_app_clone/android/app/debug
+nubank_app_clone/android/app/profile
+nubank_app_clone/android/app/release
