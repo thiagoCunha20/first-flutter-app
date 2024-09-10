@@ -29,7 +29,7 @@ nubank_app_clone/.flutter-plugins
 nubank_app_clone/.flutter-plugins-dependencies
 nubank_app_clone/.pub-cache/
 nubank_app_clone/.pub/
-nubank_app_clone//build/
+nubank_app_clone/build/
 
 # Symbolication related
 nubank_app_clone/app.*.symbols
