@@ -3,13 +3,14 @@ import 'package:flutter/material.dart';
 
 class RandomWordsService extends ChangeNotifier {
   var current = WordPair.random();
+  final favorites = <WordPair>[];
+  final words = <WordPair>[];
 
   void getNext() {
     current = WordPair.random();
+    words.add(current);
     notifyListeners();
   }
-
-  final favorites = <WordPair>[];
 
   void toggleFavorite() {
     if (favorites.contains(current)) {
