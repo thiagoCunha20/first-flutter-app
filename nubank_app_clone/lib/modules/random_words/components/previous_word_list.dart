@@ -1,18 +1,21 @@
 import 'package:flutter/material.dart';
 
 class PreviousWordList extends StatelessWidget {
+  const PreviousWordList();
+
   @override
   Widget build(BuildContext context) {
-    final theme = Theme.of(context);
-    final style = theme.textTheme.displayMedium!
-        .copyWith(color: theme.colorScheme.onPrimary);
-
-    return Card(
-      color: theme.colorScheme.primary,
-      shadowColor: theme.shadowColor,
-      child: Padding(
-        padding: const EdgeInsets.all(8.0),
-        child: Text("Previous word list", style: style),
+    // return SizedBox(
+    //   width: 10,
+    // );
+    return Scaffold(
+      body: ListView(
+        children: const <Widget>[
+          ListTile(
+            leading: Icon(Icons.map),
+            title: Text('Map'),
+          )
+        ],
       ),
     );
   }
